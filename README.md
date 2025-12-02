@@ -26,7 +26,7 @@ The smart greenhouse system is designed to provide comprehensive, automated envi
 
 The system is centered around the **ESP32-WROOM-32D** module.
 
-* **Key Functions:** Selected for its integrated Wi-Fi and Bluetooth connectivity, sufficient processing capability, and wide range of peripheral interfaces[cite: 37]. It manages reliable monitoring and control of environmental parameters.
+* **Key Functions:** Selected for its integrated Wi-Fi and Bluetooth connectivity, sufficient processing capability, and wide range of peripheral interfaces. It manages reliable monitoring and control of environmental parameters.
 * **Low-Power Features:** Ensures energy efficiency.
 
 ### 2. Sensors
@@ -36,8 +36,8 @@ The PCB is designed to interface with the following sensors:
 | Parameter | Sensor (Initial Selection) | Key Specifications |
 | :--- | :--- | :--- |
 | Temperature & Humidity | **DHT22** | Operates at 5V, output is 40-bit digital data, accuracy is $\pm0.5^{\circ}C$, $\pm2\%RH$. |
-| $CO_{2}$ Concentration | **MQ-135** | Used to measure $Co_{2}$ in air. *(Note: MQ-135 is generally for air quality; MH-Z19B is the recommended alternative for dedicated $CO_{2}$ measurement)*. |
-| Light Intensity | **BH1750** | Used to measure light intensity*(Note: TSL2561 is the recommended alternative for better accuracy and IR/Visible light separation)*. |
+| $CO_{2}$ Concentration | **MQ-135** | Used to measure $Co_{2}$ in air.
+| Light Intensity | **BH1750** | Used to measure light intensity.
 
 ### 3. Actuators and Relays
 
@@ -54,10 +54,10 @@ Actuators are connected via relays for switching high loads. The system uses:
 
 ### Control Modes
 
-Control is managed by **four SPDT switches**[cite: 108, 90]:
+Control is managed by **four SPDT switches**:
 
-* **Global Mode Switch:** A single SPDT switch determines the operating mode (**Automatic** vs. **Manual**)[cite: 93].
-* **Actuator Override Switches:** Three actuator-specific SPDT switches enable manual override of the **fan**, **motor**, and **heater**[cite: 94].
+* **Global Mode Switch:** A single SPDT switch determines the operating mode (**Automatic** vs. **Manual**).
+* **Actuator Override Switches:** Three actuator-specific SPDT switches enable manual override of the **fan**, **motor**, and **heater**.
 * **Safety:** All logic-level signals from the switches are processed by the ESP32, ensuring safe, low-voltage control.
 
 ### Status Indicators
