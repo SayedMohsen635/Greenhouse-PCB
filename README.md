@@ -93,11 +93,11 @@ The system requires a stable power distribution network.
 ### PCB Schematic
 
 The schematic illustrates the connections between the ESP32-Wroom-32D, sensors, relays, and power management circuits.
-![Smart Greenhouse PCB Schematic](images/schematic.png)
+![Smart Greenhouse PCB Schematic](schematic.png)
 
 ### PCB Design
 
 These images show the finalized component placement and copper trace routing of the custom PCB in 2D and 3D view.
-![2D PCB Layout](images/2d_pcb_layout.png)
-![3D PCB Layout_Front](images/3d_pcb_layout_1.png)
-![3D PCB Layout_Back](images/3d_pcb_layout_2.png)
+![2D PCB Layout](2d_pcb_layout.png)
+![3D PCB Layout_Front](3d_pcb_layout_1.png)
+![3D PCB Layout_Back](3d_pcb_layout_2.png)
