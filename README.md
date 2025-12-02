@@ -1,5 +1,5 @@
 # Smart Greenhouse PCB System
-This repository includes the design files and implementation of a custom Greenhouse Control PCB developed to automate and regulate key environmental functions in a greenhouse system.
+This repository includes the design files and implementation of a custom Greenhouse Control PCB developed to automate and regulate key environmental functions in a greenhouse system using Altium Designer.
 
 ---
 
